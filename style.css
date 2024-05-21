@@ -1,0 +1,124 @@
+.background {
+    background-image: url("vecteezy_parallax-background-with-destroyed-city-street_14320066.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    position: absolute;
+}
+
+.body {
+    margin: 0px;
+    scrollbar-width: none;
+    overflow: hidden;
+}
+
+.boy {
+    width: 200px;
+    margin-top: 400px;
+    position: absolute;
+    background-size: cover ;
+}
+
+.block{
+    position: absolute;
+    background-image:url(flame.gif);
+
+    background-size: cover;
+    width: 90px;
+    height: 150px;
+    margin-top: 500px;
+}
+.score{
+    position: absolute;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left:25px ;
+   font-style: initial;
+   color: azure;
+}
+
+.endscreen{
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    
+    font-family: arial;
+    font-weight: bold;
+    font-size: 60px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    flex-direction: column;
+
+    margin-left: 500px;
+    margin-top: 100px;
+    visibility: hidden;
+    color: #c0e408;
+
+}
+.endscore{
+    color: rgb(189, 203, 29);
+    
+}
+.btn{
+    width: 400px;
+    height: 50px;
+    background-color: rgb(21, 247, 0);
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: rgb(215, 16, 52);
+    box-shadow: 10px;
+
+}
+
+.btn:hover{
+    color: cyan;
+    background-color: black;
+}
+.d1{
+    color: coral;
+}
+.d2{
+    color: coral;
+}
+.text{
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #c0e408;
+    animation: animate 15s linear infinite;
+    -webkit-animation: animate 15s linear infinite;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 60px;
+}
+@keyframes animate{
+    0%{
+        opacity: 0;
+        left: -100%;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        left: 100%;
+    }
+}
+@-webkit-keyframes animate{
+    0%{
+        opacity: 0;
+        left: -100%;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        left: 100%;
+    }
+}
